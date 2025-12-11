@@ -20,10 +20,7 @@ const result = validateCommitMessage(commitMessage);
 
 if (!result.valid) {
   console.error("❌ Commit message validation failed:\n");
-  console.error(result.error);
-  console.error("\nYour commit message:");
-  console.error(`  ${commitMessage.trim()}`);
-  console.error("\nSee docs/COMMIT_CONVENTION.md for more information.");
+  console.error("\nSee README.md for more information.");
   Deno.exit(1);
 }
 
