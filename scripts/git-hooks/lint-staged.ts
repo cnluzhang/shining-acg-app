@@ -100,7 +100,7 @@ export class LintStaged {
     } catch (e) {
       console.error('❌ lint-staged 任务失败');
       // 如果修改流程失败，重置工作目录到索引状态。即将工作区做的修改撤回，回到那些已 staged 的内容
-      runCommand('git', ['checkout', '--', '.']);
+      runCommand('git', ['restore', '-W', '.']);
 
       throw e;
     } finally {
