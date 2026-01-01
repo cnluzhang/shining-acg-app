@@ -14,10 +14,7 @@ bin/
 *.aab
 
 # Web (Frontend)
-packages/web/.svelte-kit/
-packages/web/build/
-packages/web/.env
-packages/web/.env.local
+.svelte-kit/
 
 # Server (Backend)
 packages/server/bin/
@@ -36,8 +33,8 @@ packages/android/.externalNativeBuild/
 packages/android/.cxx/
 
 # iOS
-packages/ios/*.xcodeproj/xcuserdata/
-packages/ios/*.xcworkspace/xcuserdata/
+packages/ios/**/*.xcodeproj/xcuserdata/
+packages/ios/**/*.xcworkspace/xcuserdata/
 packages/ios/Pods/
 packages/ios/build/
 packages/ios/DerivedData/

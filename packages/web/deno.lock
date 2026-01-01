@@ -5,6 +5,7 @@
     "npm:@eslint/js@^9.39.1": "9.39.1",
     "npm:@sveltejs/adapter-auto@7": "7.0.0_@sveltejs+kit@2.49.2__@sveltejs+vite-plugin-svelte@6.2.1___svelte@5.45.8____acorn@8.15.0___vite@7.2.7____@types+node@24.10.3____picomatch@4.0.3___@types+node@24.10.3__svelte@5.45.8___acorn@8.15.0__vite@7.2.7___@types+node@24.10.3___picomatch@4.0.3__acorn@8.15.0__@types+node@24.10.3_@sveltejs+vite-plugin-svelte@6.2.1__svelte@5.45.8___acorn@8.15.0__vite@7.2.7___@types+node@24.10.3___picomatch@4.0.3__@types+node@24.10.3_svelte@5.45.8__acorn@8.15.0_vite@7.2.7__@types+node@24.10.3__picomatch@4.0.3_@types+node@24.10.3",
     "npm:@sveltejs/kit@^2.48.5": "2.49.2_@sveltejs+vite-plugin-svelte@6.2.1__svelte@5.45.8___acorn@8.15.0__vite@7.2.7___@types+node@24.10.3___picomatch@4.0.3__@types+node@24.10.3_svelte@5.45.8__acorn@8.15.0_vite@7.2.7__@types+node@24.10.3__picomatch@4.0.3_acorn@8.15.0_@types+node@24.10.3",
+    "npm:@sveltejs/package@^2.5.6": "2.5.7_svelte@5.45.8__acorn@8.15.0_typescript@5.9.3",
     "npm:@sveltejs/vite-plugin-svelte@^6.2.1": "6.2.1_svelte@5.45.8__acorn@8.15.0_vite@7.2.7__@types+node@24.10.3__picomatch@4.0.3_@types+node@24.10.3",
     "npm:@tailwindcss/forms@~0.5.10": "0.5.10_tailwindcss@4.1.18",
     "npm:@tailwindcss/typography@~0.5.19": "0.5.19_tailwindcss@4.1.18",
@@ -17,6 +18,7 @@
     "npm:prettier-plugin-svelte@^3.4.0": "3.4.0_prettier@3.7.4_svelte@5.45.8__acorn@8.15.0",
     "npm:prettier-plugin-tailwindcss@~0.7.1": "0.7.2_prettier@3.7.4_prettier-plugin-svelte@3.4.0__prettier@3.7.4__svelte@5.45.8___acorn@8.15.0_svelte@5.45.8__acorn@8.15.0",
     "npm:prettier@^3.6.2": "3.7.4",
+    "npm:publint@~0.3.15": "0.3.16",
     "npm:svelte-check@^4.3.4": "4.3.4_svelte@5.45.8__acorn@8.15.0_typescript@5.9.3",
     "npm:svelte@^5.43.8": "5.45.8_acorn@8.15.0",
     "npm:tailwindcss@^4.1.17": "4.1.18",
@@ -314,6 +316,10 @@
       "integrity": "sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==",
       "tarball": "https://registry.npmmirror.com/@polka/url/-/url-1.0.0-next.29.tgz"
     },
+    "@publint/pack@0.1.2": {
+      "integrity": "sha512-S+9ANAvUmjutrshV4jZjaiG8XQyuJIZ8a4utWmN/vW1sgQ9IfBnPndwkmQYw53QmouOIytT874u65HEmu6H5jw==",
+      "tarball": "https://registry.npmmirror.com/@publint/pack/-/pack-0.1.2.tgz"
+    },
     "@rollup/rollup-android-arm-eabi@4.53.3": {
       "integrity": "sha512-mRSi+4cBjrRLoaal2PnqH82Wqyb+d3HsPUN/W+WslCXsZsyHa9ZeQQX/pQsZaVIWDkPcpV6jJ+3KLbTbgnwv8w==",
       "os": ["android"],
@@ -486,6 +492,19 @@
       ],
       "bin": true,
       "tarball": "https://registry.npmmirror.com/@sveltejs/kit/-/kit-2.49.2.tgz"
+    },
+    "@sveltejs/package@2.5.7_svelte@5.45.8__acorn@8.15.0_typescript@5.9.3": {
+      "integrity": "sha512-qqD9xa9H7TDiGFrF6rz7AirOR8k15qDK/9i4MIE8te4vWsv5GEogPks61rrZcLy+yWph+aI6pIj2MdoK3YI8AQ==",
+      "dependencies": [
+        "chokidar@5.0.0",
+        "kleur",
+        "sade",
+        "semver",
+        "svelte",
+        "svelte2tsx"
+      ],
+      "bin": true,
+      "tarball": "https://registry.npmmirror.com/@sveltejs/package/-/package-2.5.7.tgz"
     },
     "@sveltejs/vite-plugin-svelte-inspector@5.0.1_@sveltejs+vite-plugin-svelte@6.2.1__svelte@5.45.8___acorn@8.15.0__vite@7.2.7___@types+node@24.10.3___picomatch@4.0.3__@types+node@24.10.3_svelte@5.45.8__acorn@8.15.0_vite@7.2.7__@types+node@24.10.3__picomatch@4.0.3_@types+node@24.10.3": {
       "integrity": "sha512-ubWshlMk4bc8mkwWbg6vNvCeT7lGQojE3ijDh3QTR6Zr/R+GXxsGbyH4PExEPpiFmqPhYiVSVmHBjUcVc1JIrA==",
@@ -840,9 +859,16 @@
     "chokidar@4.0.3": {
       "integrity": "sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==",
       "dependencies": [
-        "readdirp"
+        "readdirp@4.1.2"
       ],
       "tarball": "https://registry.npmmirror.com/chokidar/-/chokidar-4.0.3.tgz"
+    },
+    "chokidar@5.0.0": {
+      "integrity": "sha512-TQMmc3w+5AxjpL8iIiwebF73dRDF4fBIieAqGn9RGCWaEVwQ6Fb2cGe31Yns0RRIzii5goJ1Y7xbMwo1TxMplw==",
+      "dependencies": [
+        "readdirp@5.0.0"
+      ],
+      "tarball": "https://registry.npmmirror.com/chokidar/-/chokidar-5.0.0.tgz"
     },
     "clsx@2.1.1": {
       "integrity": "sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==",
@@ -887,6 +913,10 @@
         "ms"
       ],
       "tarball": "https://registry.npmmirror.com/debug/-/debug-4.4.3.tgz"
+    },
+    "dedent-js@1.0.1": {
+      "integrity": "sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==",
+      "tarball": "https://registry.npmmirror.com/dedent-js/-/dedent-js-1.0.1.tgz"
     },
     "deep-is@0.1.4": {
       "integrity": "sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==",
@@ -1424,6 +1454,10 @@
       ],
       "tarball": "https://registry.npmmirror.com/p-locate/-/p-locate-5.0.0.tgz"
     },
+    "package-manager-detector@1.6.0": {
+      "integrity": "sha512-61A5ThoTiDG/C8s8UMZwSorAGwMJ0ERVGj2OjoW5pAalsNOg15+iQiPzrLJ4jhZ1HJzmC2PIHT2oEiH3R5fzNA==",
+      "tarball": "https://registry.npmmirror.com/package-manager-detector/-/package-manager-detector-1.6.0.tgz"
+    },
     "parent-module@1.0.1": {
       "integrity": "sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==",
       "dependencies": [
@@ -1526,6 +1560,17 @@
       "bin": true,
       "tarball": "https://registry.npmmirror.com/prettier/-/prettier-3.7.4.tgz"
     },
+    "publint@0.3.16": {
+      "integrity": "sha512-MFqyfRLAExPVZdTQFwkAQELzA8idyXzROVOytg6nEJ/GEypXBUmMGrVaID8cTuzRS1U5L8yTOdOJtMXgFUJAeA==",
+      "dependencies": [
+        "@publint/pack",
+        "package-manager-detector",
+        "picocolors",
+        "sade"
+      ],
+      "bin": true,
+      "tarball": "https://registry.npmmirror.com/publint/-/publint-0.3.16.tgz"
+    },
     "punycode@2.3.1": {
       "integrity": "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==",
       "tarball": "https://registry.npmmirror.com/punycode/-/punycode-2.3.1.tgz"
@@ -1533,6 +1578,10 @@
     "readdirp@4.1.2": {
       "integrity": "sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==",
       "tarball": "https://registry.npmmirror.com/readdirp/-/readdirp-4.1.2.tgz"
+    },
+    "readdirp@5.0.0": {
+      "integrity": "sha512-9u/XQ1pvrQtYyMpZe7DXKv2p5CNvyVwzUB6uhLAnQwHMSgKMBR62lc7AHljaeteeHXn11XTAaLLUVZYVZyuRBQ==",
+      "tarball": "https://registry.npmmirror.com/readdirp/-/readdirp-5.0.0.tgz"
     },
     "resolve-from@4.0.0": {
       "integrity": "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==",
@@ -1577,6 +1626,10 @@
         "mri"
       ],
       "tarball": "https://registry.npmmirror.com/sade/-/sade-1.8.1.tgz"
+    },
+    "scule@1.3.0": {
+      "integrity": "sha512-6FtHJEvt+pVMIB9IBY+IcCJ6Z5f1iQnytgyfKMhDKgmzYG+TeH/wx1y3l27rshSbLiSanrR9ffZDrEsmjlQF2g==",
+      "tarball": "https://registry.npmmirror.com/scule/-/scule-1.3.0.tgz"
     },
     "semver@7.7.3": {
       "integrity": "sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==",
@@ -1626,7 +1679,7 @@
       "integrity": "sha512-DVWvxhBrDsd+0hHWKfjP99lsSXASeOhHJYyuKOFYJcP7ThfSCKgjVarE8XfuMWpS5JV3AlDf+iK1YGGo2TACdw==",
       "dependencies": [
         "@jridgewell/trace-mapping",
-        "chokidar",
+        "chokidar@4.0.3",
         "fdir",
         "picocolors",
         "sade",
@@ -1651,6 +1704,16 @@
         "svelte"
       ],
       "tarball": "https://registry.npmmirror.com/svelte-eslint-parser/-/svelte-eslint-parser-1.4.1.tgz"
+    },
+    "svelte2tsx@0.7.46_svelte@5.45.8__acorn@8.15.0_typescript@5.9.3": {
+      "integrity": "sha512-S++Vw3w47a8rBuhbz4JK0fcGea8tOoX1boT53Aib8+oUO2EKeOG+geXprJVTDfBlvR+IJdf3jIpR2RGwT6paQA==",
+      "dependencies": [
+        "dedent-js",
+        "scule",
+        "svelte",
+        "typescript"
+      ],
+      "tarball": "https://registry.npmmirror.com/svelte2tsx/-/svelte2tsx-0.7.46.tgz"
     },
     "svelte@5.45.8_acorn@8.15.0": {
       "integrity": "sha512-1Jh7FwVh/2Uxg0T7SeE1qFKMhwYH45b2v53bcZpW7qHa6O8iU1ByEj56PF0IQ6dU4HE5gRkic6h+vx+tclHeiw==",
@@ -1795,31 +1858,93 @@
     }
   },
   "workspace": {
-    "packageJson": {
-      "dependencies": [
-        "npm:@eslint/compat@^1.4.0",
-        "npm:@eslint/js@^9.39.1",
-        "npm:@sveltejs/adapter-auto@7",
-        "npm:@sveltejs/kit@^2.48.5",
-        "npm:@sveltejs/vite-plugin-svelte@^6.2.1",
-        "npm:@tailwindcss/forms@~0.5.10",
-        "npm:@tailwindcss/typography@~0.5.19",
-        "npm:@tailwindcss/vite@^4.1.17",
-        "npm:@types/node@24",
-        "npm:eslint-config-prettier@^10.1.8",
-        "npm:eslint-plugin-svelte@^3.13.0",
-        "npm:eslint@^9.39.1",
-        "npm:globals@^16.5.0",
-        "npm:prettier-plugin-svelte@^3.4.0",
-        "npm:prettier-plugin-tailwindcss@~0.7.1",
-        "npm:prettier@^3.6.2",
-        "npm:svelte-check@^4.3.4",
-        "npm:svelte@^5.43.8",
-        "npm:tailwindcss@^4.1.17",
-        "npm:typescript-eslint@^8.47.0",
-        "npm:typescript@^5.9.3",
-        "npm:vite@^7.2.2"
-      ]
+    "members": {
+      "share": {
+        "packageJson": {
+          "dependencies": [
+            "npm:@eslint/compat@^1.4.0",
+            "npm:@eslint/js@^9.39.1",
+            "npm:@sveltejs/adapter-auto@7",
+            "npm:@sveltejs/kit@^2.48.5",
+            "npm:@sveltejs/package@^2.5.6",
+            "npm:@sveltejs/vite-plugin-svelte@^6.2.1",
+            "npm:@tailwindcss/forms@~0.5.10",
+            "npm:@tailwindcss/typography@~0.5.19",
+            "npm:@tailwindcss/vite@^4.1.17",
+            "npm:@types/node@24",
+            "npm:eslint-config-prettier@^10.1.8",
+            "npm:eslint-plugin-svelte@^3.13.0",
+            "npm:eslint@^9.39.1",
+            "npm:globals@^16.5.0",
+            "npm:prettier-plugin-svelte@^3.4.0",
+            "npm:prettier-plugin-tailwindcss@~0.7.1",
+            "npm:prettier@^3.6.2",
+            "npm:publint@~0.3.15",
+            "npm:svelte-check@^4.3.4",
+            "npm:svelte@^5.43.8",
+            "npm:tailwindcss@^4.1.17",
+            "npm:typescript-eslint@^8.47.0",
+            "npm:typescript@^5.9.3",
+            "npm:vite@^7.2.2"
+          ]
+        }
+      },
+      "shining-acg-app": {
+        "packageJson": {
+          "dependencies": [
+            "npm:@eslint/compat@^1.4.0",
+            "npm:@eslint/js@^9.39.1",
+            "npm:@sveltejs/adapter-auto@7",
+            "npm:@sveltejs/kit@^2.48.5",
+            "npm:@sveltejs/vite-plugin-svelte@^6.2.1",
+            "npm:@tailwindcss/forms@~0.5.10",
+            "npm:@tailwindcss/typography@~0.5.19",
+            "npm:@tailwindcss/vite@^4.1.17",
+            "npm:@types/node@24",
+            "npm:eslint-config-prettier@^10.1.8",
+            "npm:eslint-plugin-svelte@^3.13.0",
+            "npm:eslint@^9.39.1",
+            "npm:globals@^16.5.0",
+            "npm:prettier-plugin-svelte@^3.4.0",
+            "npm:prettier-plugin-tailwindcss@~0.7.1",
+            "npm:prettier@^3.6.2",
+            "npm:svelte-check@^4.3.4",
+            "npm:svelte@^5.43.8",
+            "npm:tailwindcss@^4.1.17",
+            "npm:typescript-eslint@^8.47.0",
+            "npm:typescript@^5.9.3",
+            "npm:vite@^7.2.2"
+          ]
+        }
+      },
+      "shining-acg-site": {
+        "packageJson": {
+          "dependencies": [
+            "npm:@eslint/compat@^1.4.0",
+            "npm:@eslint/js@^9.39.1",
+            "npm:@sveltejs/adapter-auto@7",
+            "npm:@sveltejs/kit@^2.48.5",
+            "npm:@sveltejs/vite-plugin-svelte@^6.2.1",
+            "npm:@tailwindcss/forms@~0.5.10",
+            "npm:@tailwindcss/typography@~0.5.19",
+            "npm:@tailwindcss/vite@^4.1.17",
+            "npm:@types/node@24",
+            "npm:eslint-config-prettier@^10.1.8",
+            "npm:eslint-plugin-svelte@^3.13.0",
+            "npm:eslint@^9.39.1",
+            "npm:globals@^16.5.0",
+            "npm:prettier-plugin-svelte@^3.4.0",
+            "npm:prettier-plugin-tailwindcss@~0.7.1",
+            "npm:prettier@^3.6.2",
+            "npm:svelte-check@^4.3.4",
+            "npm:svelte@^5.43.8",
+            "npm:tailwindcss@^4.1.17",
+            "npm:typescript-eslint@^8.47.0",
+            "npm:typescript@^5.9.3",
+            "npm:vite@^7.2.2"
+          ]
+        }
+      }
     }
   }
 }

@@ -1,11 +1,13 @@
 {
-	"tasks": {
-		"dev:all": "deno task dev:share & deno task dev:app & deno task dev:site",
-		"dev:share": "deno task --cwd \"./share\" dev",
-		"dev:site": "deno task --cwd \"./shining-acg-site\" dev",
-		"dev:app": "deno task --cwd \"./shining-acg-app\" dev",
-		"build:all": "deno task -r build"
-	},
-	"workspace": ["./share", "./shining-acg-app", "./shining-acg-site"],
-	"nodeModulesDir": "auto"
+  "tasks": {
+    "dev:all": "deno task dev:share & deno task dev:app & deno task dev:site",
+    "dev:share": "deno task --cwd \"./share\" dev",
+    "dev:site": "deno task --cwd \"./shining-acg-site\" dev",
+    "dev:app": "deno task --cwd \"./shining-acg-app\" dev",
+    "build:all": "deno task -r build",
+    "format:all": "deno task -r format",
+    "lint:all": "deno task -r lint"
+  },
+  "workspace": ["./share", "./shining-acg-app", "./shining-acg-site"],
+  "nodeModulesDir": "auto"
 }

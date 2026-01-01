@@ -4,6 +4,9 @@ pnpm-lock.yaml
 yarn.lock
 bun.lock
 bun.lockb
+deno.lock
+.svelte-kit
+.vscode
 
 # Miscellaneous
 /static/

@@ -2,8 +2,6 @@
   "name": "shining-acg-app",
   "exports": {},
   "tasks": {
-    "prepare": "deno run -A scripts/git-hooks/install-hooks.ts",
-    "web:dev": "cd packages/web && deno task dev",
-    "web:build": "cd packages/web && deno task build"
+    "prepare": "deno run -A scripts/git-hooks/install-hooks.ts"
   }
 }
