@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		DA3BEED52EEAE95200CF8BE6 /* ShiningACGApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiningACGApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5D159D2F0662DE00D76413 /* ShiningACGApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiningACGApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DA3BEED72EEAE95200CF8BE6 /* ShiningACGApp */ = {
+		DA5D159F2F0662DE00D76413 /* ShiningACGApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ShiningACGApp;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA3BEED22EEAE95100CF8BE6 /* Frameworks */ = {
+		DA5D159A2F0662DE00D76413 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA3BEECC2EEAE95100CF8BE6 = {
+		DA5D15942F0662DE00D76413 = {
 			isa = PBXGroup;
 			children = (
-				DA3BEED72EEAE95200CF8BE6 /* ShiningACGApp */,
-				DA3BEED62EEAE95200CF8BE6 /* Products */,
+				DA5D159F2F0662DE00D76413 /* ShiningACGApp */,
+				DA5D159E2F0662DE00D76413 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DA3BEED62EEAE95200CF8BE6 /* Products */ = {
+		DA5D159E2F0662DE00D76413 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA3BEED52EEAE95200CF8BE6 /* ShiningACGApp.app */,
+				DA5D159D2F0662DE00D76413 /* ShiningACGApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA3BEED42EEAE95100CF8BE6 /* ShiningACGApp */ = {
+		DA5D159C2F0662DE00D76413 /* ShiningACGApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA3BEEE02EEAE95200CF8BE6 /* Build configuration list for PBXNativeTarget "ShiningACGApp" */;
+			buildConfigurationList = DA5D15A82F0662DF00D76413 /* Build configuration list for PBXNativeTarget "ShiningACGApp" */;
 			buildPhases = (
-				DA3BEED12EEAE95100CF8BE6 /* Sources */,
-				DA3BEED22EEAE95100CF8BE6 /* Frameworks */,
-				DA3BEED32EEAE95100CF8BE6 /* Resources */,
+				DA5D15992F0662DE00D76413 /* Sources */,
+				DA5D159A2F0662DE00D76413 /* Frameworks */,
+				DA5D159B2F0662DE00D76413 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				DA3BEED72EEAE95200CF8BE6 /* ShiningACGApp */,
+				DA5D159F2F0662DE00D76413 /* ShiningACGApp */,
 			);
 			name = ShiningACGApp;
 			packageProductDependencies = (
 			);
 			productName = ShiningACGApp;
-			productReference = DA3BEED52EEAE95200CF8BE6 /* ShiningACGApp.app */;
+			productReference = DA5D159D2F0662DE00D76413 /* ShiningACGApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DA3BEECD2EEAE95100CF8BE6 /* Project object */ = {
+		DA5D15952F0662DE00D76413 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2610;
-				LastUpgradeCheck = 2610;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					DA3BEED42EEAE95100CF8BE6 = {
-						CreatedOnToolsVersion = 26.1.1;
+					DA5D159C2F0662DE00D76413 = {
+						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
-			buildConfigurationList = DA3BEED02EEAE95100CF8BE6 /* Build configuration list for PBXProject "ShiningACGApp" */;
+			buildConfigurationList = DA5D15982F0662DE00D76413 /* Build configuration list for PBXProject "ShiningACGApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = DA3BEECC2EEAE95100CF8BE6;
+			mainGroup = DA5D15942F0662DE00D76413;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = DA3BEED62EEAE95200CF8BE6 /* Products */;
+			productRefGroup = DA5D159E2F0662DE00D76413 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA3BEED42EEAE95100CF8BE6 /* ShiningACGApp */,
+				DA5D159C2F0662DE00D76413 /* ShiningACGApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DA3BEED32EEAE95100CF8BE6 /* Resources */ = {
+		DA5D159B2F0662DE00D76413 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DA3BEED12EEAE95100CF8BE6 /* Sources */ = {
+		DA5D15992F0662DE00D76413 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DA3BEEDE2EEAE95200CF8BE6 /* Debug */ = {
+		DA5D15A62F0662DF00D76413 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +178,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		DA3BEEDF2EEAE95200CF8BE6 /* Release */ = {
+		DA5D15A72F0662DF00D76413 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -246,7 +246,7 @@
 			};
 			name = Release;
 		};
-		DA3BEEE12EEAE95200CF8BE6 /* Debug */ = {
+		DA5D15A92F0662DF00D76413 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -278,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		DA3BEEE22EEAE95200CF8BE6 /* Release */ = {
+		DA5D15AA2F0662DF00D76413 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -313,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA3BEED02EEAE95100CF8BE6 /* Build configuration list for PBXProject "ShiningACGApp" */ = {
+		DA5D15982F0662DE00D76413 /* Build configuration list for PBXProject "ShiningACGApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA3BEEDE2EEAE95200CF8BE6 /* Debug */,
-				DA3BEEDF2EEAE95200CF8BE6 /* Release */,
+				DA5D15A62F0662DF00D76413 /* Debug */,
+				DA5D15A72F0662DF00D76413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA3BEEE02EEAE95200CF8BE6 /* Build configuration list for PBXNativeTarget "ShiningACGApp" */ = {
+		DA5D15A82F0662DF00D76413 /* Build configuration list for PBXNativeTarget "ShiningACGApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA3BEEE12EEAE95200CF8BE6 /* Debug */,
-				DA3BEEE22EEAE95200CF8BE6 /* Release */,
+				DA5D15A92F0662DF00D76413 /* Debug */,
+				DA5D15AA2F0662DF00D76413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DA3BEECD2EEAE95100CF8BE6 /* Project object */;
+	rootObject = DA5D15952F0662DE00D76413 /* Project object */;
 }
