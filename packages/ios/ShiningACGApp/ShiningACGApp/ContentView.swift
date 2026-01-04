@@ -7,11 +7,18 @@
 
 import SwiftUI
 import WebKit
+import Foundation
 
 struct ContentView: View {
+  let url=URL(string: "http://video.gach1koi.site")
+  
   var body: some View {
-    WebView(url: URL(string: "https://www.baidu.com"))
-      .webViewBackForwardNavigationGestures(.disabled)
+    let _ = print(url ?? "")
+    if let url {
+      WebView(url: url)
+    }else {
+      Text("内容加载失败")
+    }
   }
 }
 
