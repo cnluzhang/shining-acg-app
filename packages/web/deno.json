@@ -9,5 +9,31 @@
     "lint:all": "deno task -r lint"
   },
   "workspace": ["./share", "./shining-acg-app", "./shining-acg-site"],
-  "nodeModulesDir": "auto"
+  "nodeModulesDir": "auto",
+  "imports": {
+    "@eslint/compat": "npm:@eslint/compat@^1.4.0",
+    "@eslint/js": "npm:@eslint/js@^9.39.1",
+    "@sveltejs/adapter-static": "npm:@sveltejs/adapter-static@^3.0.8",
+    "@sveltejs/kit": "npm:@sveltejs/kit@^2.48.5",
+    "@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte@^6.2.1",
+    "@tailwindcss/forms": "npm:@tailwindcss/forms@^0.5.10",
+    "@tailwindcss/typography": "npm:@tailwindcss/typography@^0.5.19",
+    "@tailwindcss/vite": "npm:@tailwindcss/vite@^4.1.17",
+    "@types/node": "npm:@types/node@^24",
+    "eslint": "npm:eslint@^9.39.1",
+    "eslint-config-prettier": "npm:eslint-config-prettier@^10.1.8",
+    "eslint-plugin-svelte": "npm:eslint-plugin-svelte@^3.13.0",
+    "globals": "npm:globals@^16.5.0",
+    "lucide-svelte": "npm:lucide-svelte@^0.469.0",
+    "prettier": "npm:prettier@^3.6.2",
+    "prettier-plugin-svelte": "npm:prettier-plugin-svelte@^3.4.0",
+    "prettier-plugin-tailwindcss": "npm:prettier-plugin-tailwindcss@^0.7.1",
+    "svelte": "npm:svelte@^5.43.8",
+    "svelte-check": "npm:svelte-check@^4.3.4",
+    "tailwindcss": "npm:tailwindcss@^4.1.17",
+    "typescript": "npm:typescript@^5.9.3",
+    "typescript-eslint": "npm:typescript-eslint@^8.47.0",
+    "vite": "npm:vite@^7.2.2",
+    "share": "npm:share@^0.0.1"
+  }
 }
