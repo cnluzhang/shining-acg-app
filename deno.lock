@@ -1,0 +1,48 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:shadcn-svelte@latest": "1.1.0"
+  },
+  "npm": {
+    "commander@14.0.2": {
+      "integrity": "sha512-TywoWNNRbhoD0BXs1P3ZEScW8W5iKrnbithIl0YH+uCmBd0QpPOA8yc82DS3BIE5Ma6FnBVUsJ7wVUDz4dvOWQ==",
+      "tarball": "https://registry.npmmirror.com/commander/-/commander-14.0.2.tgz"
+    },
+    "nanoid@3.3.11": {
+      "integrity": "sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==",
+      "bin": true,
+      "tarball": "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.11.tgz"
+    },
+    "node-fetch-native@1.6.7": {
+      "integrity": "sha512-g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==",
+      "tarball": "https://registry.npmmirror.com/node-fetch-native/-/node-fetch-native-1.6.7.tgz"
+    },
+    "picocolors@1.1.1": {
+      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+      "tarball": "https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz"
+    },
+    "postcss@8.5.6": {
+      "integrity": "sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==",
+      "dependencies": [
+        "nanoid",
+        "picocolors",
+        "source-map-js"
+      ],
+      "tarball": "https://registry.npmmirror.com/postcss/-/postcss-8.5.6.tgz"
+    },
+    "shadcn-svelte@1.1.0": {
+      "integrity": "sha512-mTo4E6xzEGuS5q7JzL3ecX0zAd86PQaXIGvHW2f04Ap1cclE110YUU81RBIBGf2FvpZS6J5zOE2DHvzI3opg9A==",
+      "dependencies": [
+        "commander",
+        "node-fetch-native",
+        "postcss"
+      ],
+      "bin": true,
+      "tarball": "https://registry.npmmirror.com/shadcn-svelte/-/shadcn-svelte-1.1.0.tgz"
+    },
+    "source-map-js@1.2.1": {
+      "integrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==",
+      "tarball": "https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz"
+    }
+  }
+}
