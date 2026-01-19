@@ -82,7 +82,7 @@ deno task prepare
   创建分支进行热修复，修复完成后合并到 develop 和 main 分支。
 
 main、develop 分支有且仅有一个，并且受到严格的分支保护。feature、hotfix
-分支命名方式为：`[分支类型]/[名称]`，如 `feature/add_live_photo_support`。
+分支命名方式为：`[分支类型]/[开发人员昵称]`，如 `feature/gachikoi`。
 
 ## 分支保护说明
 
