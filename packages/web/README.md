@@ -144,13 +144,21 @@ deno run -A npm:sv create my-app
 
 ## 域名
 
-测试环境域名：test-app.shiningacg.club、test-www.shiningacg.club
+测试环境域名：test.shiningacg.club、test.app.shiningacg.club、test.www.shiningacg.club
 
-生产环境域名：app.shiningacg.club、www.shiningacg.club、shiningacg.club
+生产环境域名：app.shiningacg.club、www.shiningacg.club
 
 域名管理链接：
 
 域名接口人：
+
+1. ガチ恋
+
+- QQ：1131997238
+- 邮箱：1131997238@qq.com
+- 微信：mineskura
+
+2. Nt.
 
 ## 部署运维
 
