@@ -1,13 +1,14 @@
 <script lang="ts">
+	import darkLogo from '$lib/assets/dark-logo.svg';
+	import logo from '$lib/assets/logo.svg';
+	import { mode } from 'mode-watcher';
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
 
-	let {children} = $props();
+	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
-	<title>晒你 App</title>
+	<link rel="icon" href={mode.current === 'dark' ? darkLogo : logo} />
 </svelte:head>
 
 {@render children()}

@@ -14,7 +14,7 @@
 		href,
 		type,
 		icon: Icon
-	} = $props<{
+	}: {
 		class?: string;
 		badgeText?: string;
 		text: string;
@@ -22,7 +22,7 @@
 		href?: string;
 		type?: string;
 		icon?: ComponentType<SvelteComponent>;
-	}>();
+	} = $props();
 
 	let isSelected = $derived(page.url.pathname === href);
 </script>
@@ -48,6 +48,7 @@
 			>
 				{text}
 			</div>
+			<!-- 传入空格，说明显示不带具体消息条目的点状徽章 -->
 			{#if badgeText === ' '}
 				<Badge class="absolute -top-0.75 left-8.25 p-1.5" variant="dot"></Badge>
 			{:else if badgeText}
@@ -73,10 +74,11 @@
 				{/if}
 				<span class="text-base font-semibold">{text}</span>
 			</div>
+			<!-- 传入空格，说明显示不带具体消息条目的点状徽章 -->
 			{#if badgeText === ' '}
 				<Badge variant="dot"></Badge>
 			{:else if badgeText}
-				<Badge class='min-w-5'>{badgeText}</Badge>
+				<Badge class="min-w-5">{badgeText}</Badge>
 			{/if}
 		</Button>
 	{/if}

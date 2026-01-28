@@ -1,21 +1,21 @@
 <script>
+	import { resolve } from '$app/paths';
+	import rectangleLogo from '$lib/assets/rectangle-logo.svg';
 	import { Button } from '$lib/components/ui/button';
 	import { Input } from '$lib/components/ui/input';
 	import SettingPopover from './setting-popover.svelte';
 </script>
 
 <header class="flex h-18 w-full items-center gap-4 px-6">
-	<section class="flex flex-1 items-center justify-start">
-		<div
-			class="hidden h-8 shrink-0 items-center rounded-full bg-red-500 px-2 font-black text-white md:flex"
-		>
-			Shining App
-		</div>
+	<section class="hidden grow shrink-0 items-center justify-start sm:flex lg:ml-4">
+		<a class="shrink-0" href={resolve('/')}>
+			<img src={rectangleLogo} alt="Shining!" />
+		</a>
 	</section>
 
-	<Input placeholder="搜索 Shining！" class="max-w-100 text-base" />
+	<Input placeholder="搜索 Shining！" class="sm:max-w-100 lg:max-w-120 text-base" />
 
-	<section class="flex flex-1 items-center justify-end">
+	<section class="flex grow shrink-0 items-center justify-end">
 		<a
 			title="晒你官网"
 			href="https://www.shiningacg.club"
